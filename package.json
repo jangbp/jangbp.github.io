@@ -21,6 +21,7 @@
     "expo-document-picker": "~13.0.1",
     "expo-file-system": "~18.0.4",
     "expo-modules-core": "~2.0.5",
+    "expo-router": "^4.0.9",
     "expo-sharing": "~13.0.0",
     "expo-splash-screen": "~0.29.13",
     "expo-status-bar": "~2.0.0",
