@@ -5,7 +5,6 @@
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>eLogbook</title>
-    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
     <style id="expo-reset">
       /* These styles make the body full-height */
       html,
@@ -23,8 +22,9 @@
         flex: 1;
       }
     </style>
-  <link rel="shortcut icon" href="/favicon.ico" /></head>
-
+    <!-- 상대 경로로 변경 -->
+    <link rel="shortcut icon" href="./favicon.ico" />
+  </head>
   <body>
     <!-- Use static rendering with Expo Router to support running without JavaScript. -->
     <noscript>
@@ -32,6 +32,7 @@
     </noscript>
     <!-- The root element for your Expo app. -->
     <div id="root"></div>
-  <script src="/_expo/static/js/web/index-5c64ad20acafef26a3e0e897221f57b4.js" defer></script>
-</body>
+    <!-- 상대 경로로 변경 -->
+    <script src="./_expo/static/js/web/index-5c64ad20acafef26a3e0e897221f57b4.js" defer></script>
+  </body>
 </html>
