@@ -1,8 +1,5 @@
 import { registerRootComponent } from 'expo';
+import App from './App'; // App.js가 앱의 메인 컴포넌트 파일임
 
-import App from './App';
-
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
+// App 컴포넌트를 등록
 registerRootComponent(App);
