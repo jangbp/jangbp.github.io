@@ -1,0 +1,21 @@
+{
+    "name": "eLogbook",
+    "short_name": "Logbook",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "/assets/log2.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/log.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
