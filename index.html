@@ -2,11 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>eLogbook</title>
-    
-    <!-- Reset styles for react-native-web -->
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
     <style id="expo-reset">
       /* These styles make the body full-height */
       html,
@@ -24,34 +23,15 @@
         flex: 1;
       }
     </style>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="/favicon.ico" />
-
-    <!-- PWA Manifest -->
-    <link rel="manifest" href="/manifest.json" />
-    
-    <!-- Apple-specific PWA configuration -->
-    <link rel="apple-touch-icon" href="/log2.png" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="eLogbook" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    
-    <!-- Theme color -->
-    <meta name="theme-color" content="#1e90ff" />
-
-  </head>
+  <link rel="shortcut icon" href="/favicon.ico" /></head>
 
   <body>
-    <!-- No JavaScript warning -->
+    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-
-    <!-- Root element for React app -->
+    <!-- The root element for your Expo app. -->
     <div id="root"></div>
-
-    <!-- Main JavaScript bundle -->
-    <script src="/_expo/static/js/web/index-8f46c31f2291bb5b932cb146f96a2bd0.js" defer></script>
-  </body>
+  <script src="/_expo/static/js/web/index-8f46c31f2291bb5b932cb146f96a2bd0.js" defer></script>
+</body>
 </html>
